@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Chat Interface</title>
+  <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+  <div class="chat-container">
+    <!-- Chat Header -->
+    <div class="chat-header">
+      <div class="user-info">
+        <img src="unsplash_OhKElOkQ3RE.png" alt="User Avatar" class="avatar">
+        <div class="user-details">
+          <h2>John Doe</h2>
+          <span class="status">Online</span>
+        </div>
+      </div>
+      <div class="chat-options">
+        <span>⋮</span>
+      </div>
+    </div>
+
+    <!-- Chat Messages Section -->
+    <div class="chat-body">
+      <div class="date-indicator">24 October, Sunday</div>
+      
+      <!-- Message Bubble Left -->
+      <div class="message left">
+        <div class="message-bubble">
+          <p>This is a sample big message with a longer text paragraph</p>
+        </div>
+        <span class="message-time">10:03 AM</span>
+      </div>
+
+      <!-- Message Bubble Right -->
+      <div class="message right">
+        <div class="message-bubble purple">
+          <p>This is a sample big message with a longer text paragraph</p>
+        </div>
+        <span class="message-time">10:03 AM</span>
+      </div>
+
+      <!-- Voice Message Left -->
+      <div class="message left">
+        <div class="message-bubble audio">
+          <img src="Audio (1).png" alt="Audio Wave" class="audio-wave-image">
+        </div>
+        <span class="message-time">10:03 AM</span>
+      </div>
+
+      <!-- Voice Message Right -->
+      <div class="message right">
+        <div class="message-bubble audio purple">
+          <img src="Audio.png" alt="Audio Wave" class="audio-wave-image">
+        </div>
+        <span class="message-time">10:20 AM</span>
+      </div>
+
+      <!-- Text Message Left -->
+      <div class="message left">
+        <div class="message-bubble">
+          <p>This is a sample message for a chat</p>
+        </div>
+        <span class="message-time">10:30 AM</span>
+      </div>
+
+      <!-- Text Message Right -->
+      <div class="message right">
+        <div class="message-bubble purple">
+          <p>This is a sample message for a chat</p>
+        </div>
+        <span class="message-time">10:30 AM</span>
+      </div>
+    </div>
+
+    <!-- Chat Input Section -->
+    <div class="chat-input">
+        <input type="text" placeholder="Message..." class="input-text">
+        <button class="send-button">
+          <img src="Vector (2).png" alt="Send Icon">
+        </button>
+      </div>      
+  </div>
+</body>
+</html>

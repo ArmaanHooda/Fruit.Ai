@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amiri', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    height: 100vh;
+}
+
+/* Adjust the height and margin-top of the login container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 4px; /* Adds margin from the top */
+}
+
+/* Adjust max-width and height of the login-box */
+.login-box {
+    background: white;
+    padding: 30px;
+    border-radius: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 342px; /* Adjusted width for smaller box */
+    max-height: 651px; /* Control height if needed */
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 17px;
+    color: gray;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.tabs {
+    margin: 20px 0;
+}
+
+.tabs a {
+    padding: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+
+.tabs .active {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    position: relative;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input-group .eye-icon {
+    position: absolute;
+    right: 13px;
+    top: 71%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: gray;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.options label {
+    font-size: 14px;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+.forgot-password {
+    font-size: 12px;
+}
+
+.login-btn {
+    width: 80%;
+    padding: 5px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+.connect-text {
+    margin: 20px 0;
+    color: gray;
+    font-size: 14px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.fingerprint img {
+    width: 50px;
+    margin-top: 8px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .login-container {
+        margin-top: 20px; /* Smaller margin for tablets */
+    }
+
+    .login-box {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        margin-top: -10px; /* Even smaller margin for mobile */
+    }
+
+    .login-box {
+        padding: 15px;
+        max-width: 100%; /* Full width on mobile */
+    }
+}

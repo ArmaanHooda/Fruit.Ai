@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    background: linear-gradient(145deg, #E0BCF3, #7EE7EE);
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    color: white;
+}
+
+.header h1 {
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+
+.header p {
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 135px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1), -8px -8px 16px rgba(255, 255, 255, 0.7);
+    font-size: 43px;
+    font-weight: bold;
+    color: #6b30ac;
+}
+
+.grid-item img {
+    width: 80px;
+    height: 80px;
+}
+
+.chat {
+    background-color: #FFE5C2;
+    color: #C84AD3;
+}
+.hat {
+    background-color: #C2FFD0;
+    color: #C84AD3;
+}
+.cat {
+    background-color: #EFFFC2;
+    color: #C84AD3;
+}
+
+.translate {
+    background-color: #C2F0FF;
+    color: #2962ff;
+}
+
+.faqs {
+    background-color: #E4CAFF;
+    color: #3B5998;
+}
+
+.about {
+    background-color: #FFC2F2;
+    color: #C84AD3;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot.active {
+    background-color: white;
+}

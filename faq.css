@@ -1,0 +1,99 @@
+/* Reset basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #E0BCF3, #7EE7EE); /* Background gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Container for the FAQ section */
+  .faq-container {
+    width: 100%;
+    max-width: 375px; /* Mobile view */
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the FAQ section */
+  .faq-container h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* FAQ card styling */
+  .faq-card {
+    display: flex;
+    align-items: center;
+    background-color: #F3F6FF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Image styling */
+  .faq-image img {
+    width: 93px;
+    height: 93px;
+    border-radius: 3%;
+  }
+  
+  /* Text section in the FAQ card */
+  .faq-text {
+    margin-left: 15px;
+    text-align: left;
+  }
+  
+  /* Title in FAQ card */
+  .faq-text h2 {
+    font-size: 1rem;
+    color: #DA1E5D; /* Title color */
+    margin-bottom: 10px;
+  }
+  
+  /* Description in FAQ card */
+  .faq-text p {
+    font-size: 0.8rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  /* Fruit name (e.g., "Tangerine") */
+  .faq-text span {
+    font-size: 0.85rem;
+    color: #DA1E5D;
+    font-weight: bold;
+  }
+  
+  /* Responsive Design for Desktop */
+  @media (min-width: 768px) {
+    .faq-container {
+      max-width: 600px; /* Adjust for larger screens */
+    }
+  
+    .faq-card {
+      padding: 20px;
+    }
+  
+    .faq-text h2 {
+      font-size: 1.2rem;
+    }
+  
+    .faq-text p {
+      font-size: 0.9rem;
+    }
+  }
+  

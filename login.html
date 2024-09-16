@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <p>By signing in you are agreeing to <br> our <a href="#">Term and privacy policy</a></p>
+
+            <div class="tabs">
+                <a href="#" class="active">Login</a>
+                <a href="#">Register</a>
+            </div>
+
+            <form id="loginForm" class="login-form">
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <span class="eye-icon">&#128065;</span>
+                </div>
+
+                <div class="options">
+                    <label><input type="checkbox" checked> Remember password</label>
+                    <a href="#" class="forgot-password">Forget password</a>
+                </div>
+
+                <button type="submit" class="login-btn">Login</button>
+
+                <p class="connect-text">or connect with</p>
+
+                <div class="social-icons">
+                    <a href="#"><img src="facebook 1.png" alt="Facebook"></a>
+                    <a href="#"><img src="instagram 1.png" alt="Instagram"></a>
+                    <a href="#"><img src="pinterest 1.png" alt="Pinterest"></a>
+                    <a href="#"><img src="linkedin 1.png" alt="LinkedIn"></a>
+                </div>
+
+                <div class="fingerprint">
+                    <img src="Frame 450.png" alt="Fingerprint Login">
+                </div>
+                
+                <!-- Error message -->
+                <p id="errorMessage" style="color: red; display: none;">Invalid email or password</p>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script> <!-- Link to JavaScript file -->
+</body>
+</html>
