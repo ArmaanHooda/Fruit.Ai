@@ -106,19 +106,19 @@ The app is responsive and user-friendly, ensuring a seamless experience on both 
 ## Project Screenshots
 
 ### Login Page
-![Login Page](path-to-image)
+![Login Page](./Screenshot/login.png)
 
 ### Home Page
-![Home Page](path-to-image)
+![Home Page](./Screenshot/home.png)
 
 ### Chatbot Page
-![Chatbot Page](path-to-image)
+![Chatbot Page](./Screenshot/Chatbot.png)
 
-### FAQ Page (CRUD)
-![FAQ Page](path-to-image)
+### FAQ Page
+![FAQ Page](./Screenshot/Faq.png)
 
 ### About Page
-![About Page](path-to-image)
+![About Page](./Screenshot/About.png)
 
 ## Future Enhancements
 - **Authentication**: Implement real user authentication for login functionality.
